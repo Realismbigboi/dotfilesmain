@@ -144,7 +144,9 @@ assign [class="vlc"] $ws3
 assign [class="discord"] $ws4
 assign [class="Steam"] $ws5
 assign [class="apple-music-for-linux"] $ws6
-
+assign [class="Pavucontrol"] $ws7
+assign [class="kdenlive"] $ws8
+assign [class="Gimp-2.10"] $ws9
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -193,6 +195,7 @@ exec chromium
 exec vlc
 exec steam
 exec apple-music-for-linux
+exec pavucontrol
 exec_always feh --bg-scale /home/jasper/wallpapers/cowboybebop.jpg
 exec_always picom
 gaps inner 8
